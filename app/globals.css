@@ -45,12 +45,18 @@ body {
   background-repeat: no-repeat;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-position: unset;
+  }
+}
+
 .pricingSec .card {
   cursor: pointer;
   border-style: solid;
   border-width: 0 0 0 1px;
   border-color: #e7e7e7;
-  padding: 30px 0;
 }
 
 .pricingSec .card:hover {
@@ -76,9 +82,12 @@ body {
   border-style: solid;
   border-width: 0 0 0 1px;
   border-color: #e7e7e7;
-  padding: 50px 20px 50px 20px;
   color: #fff;
   cursor: pointer;
+}
+
+.internetPlans .card .sign {
+  color: #fff;
 }
 
 .internetPlans .card:hover {
@@ -93,18 +102,104 @@ body {
   color: #000;
 }
 
-.internetPlans .card:hover .price, .sign {
+.internetPlans .card:hover .price{
   color: #233d63;
 }
 
-.internetPlans .card:hover .pText{
+.internetPlans .card:hover .sign {
+  color: #233d63;
+}
+
+.internetPlans .card:hover .pText {
   color: #555;
 }
 
-.internetPlans .card:hover .cText{
+.internetPlans .card:hover .cText {
   color: #555;
 }
 
-.internetPlans .card:hover ul li span{
+.internetPlans .card:hover ul li span {
   color: #555;
+}
+
+
+
+
+
+
+
+
+
+.fixedSec .card {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-color: #e7e7e7;
+  padding: 40px 0;
+}
+
+.fixedSec .card:hover {
+  background: linear-gradient(-50deg, #000000 0%, #009AD6 65%);
+}
+
+.fixedSec .card:hover h2 {
+  color: #fff;
+}
+
+.fixedSec .card:hover p {
+  color: #fff;
+}
+
+.fixedSec .card:hover ul li span {
+  color: #fff;
+}
+
+
+
+
+
+
+
+/* FAQs */
+
+.faqSec h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faqSec ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faqSec li {
+  margin-bottom: 10px;
+}
+
+.faqSec button {
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.1em;
+  text-align: left;
+  width: 100%;
+}
+
+.faqSec button:focus {
+  outline: none;
+  color: #0057B8;
+}
+
+.faqSec p {
+  margin: 5px 0 15px 0;
+  padding-left: 20px;
+}
+
+
+
+
+footer {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / .13);
+  padding: 50px 0 0 0;
 }
