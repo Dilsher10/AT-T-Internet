@@ -53,7 +53,18 @@ export default function Home() {
       </nav>
 
 
-      
+      <section className="bg-white px-4 py-2.5 lg:px-15">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-8">
+          <div className="hidden md:block lg:block">
+            <Link href={"/"}><img src="/logo.webp" alt="logo" /></Link>
+          </div>
+          <div className="flex justify-end items-center md:mr-0 lg:mr-7">
+            <h1 className="text-[30px] md:text-[17px] lg:text-[30px] text-black lg:mr-20 font-bold hidden md:block lg:block">Call For AT&T Internet</h1>
+            <Link href="tel:+1-866-602-0042" className="bg-[#0057B8] text-white py-3 px-5 md:px-1 lg:px-5 rounded-md flex hover:bg-[#000] mx-auto lg:mx-0"><PhoneCall className="pr-2" /> (866) 602-0042</Link>
+          </div>
+        </div>
+      </section>
+
 
       <section className="bg-[#0057b8] hidden md:block lg:block">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
