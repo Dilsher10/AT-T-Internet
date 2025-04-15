@@ -66,7 +66,63 @@ export default function Home() {
       </section>
 
 
-     
+      <section className="bg-[#0057b8] hidden md:block lg:block">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex h-13 items-center justify-center">
+
+            <div className="hidden md:block">
+              <nav aria-label="Global">
+                <ul className="flex items-center gap-6 text-sm">
+                  <li>
+                    <Link
+                      className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
+                      href="/"
+                    >
+                      Home
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
+                      href="#AT&T-Fiber®-Plans"
+                    >
+                      AT&T Fiber® Plans
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
+                      href="#AT&T-Internet-Plans"
+                    >
+                      AT&T Internet Plans
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
+                      href="#AT&T-Fixed-Wireless-Internet"
+                    >
+                      AT&T Fixed Wireless Internet
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
+                      href="#FAQs"
+                    >
+                      FAQs
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
