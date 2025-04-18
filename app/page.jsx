@@ -539,7 +539,25 @@ export default function Home() {
 
       <FAQ />
 
-      
+      <footer className="bg-white">
+        <div className="mx-auto max-w-screen-xl px-4 lg:px-20 pb-10">
+          <h2 className="text-[#273171] text-[20px] font-bold font-lato">Useful Links</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pt-8">
+            <ul>
+              <li className="pb-4 font-lato text-[#111]"><Link href={"tel:+1-866-602-0042"}>(866) 602-0042</Link></li>
+              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Fiber®-Plans">AT&T Fiber® Plans</Link></li>
+              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Internet-Plans">AT&T Internet Plans</Link></li>
+            </ul>
+            <ul>
+              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Fixed-Wireless-Internet">AT&T Fixed Wireless Internet</Link></li>
+              <li className="pb-4 font-lato text-[#111]"><Link href="#FAQs">FAQs</Link></li>
+            </ul>
+          </div>
+        </div>
+        <div className="bg-black py-4">
+          <p className="text-white text-center">©2025 <Link href={"/"}>www.newinternetproviders.com.</Link> All rights reserved.</p>
+        </div>
+      </footer>
     </>
   );
 }
