@@ -52,7 +52,6 @@ export default function Home() {
         </div>
       </nav>
 
-
       <section className="bg-white px-4 py-2.5 lg:px-15">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2 lg:gap-8">
           <div className="hidden md:block lg:block">
@@ -65,11 +64,9 @@ export default function Home() {
         </div>
       </section>
 
-
       <section className="bg-[#0057b8] hidden md:block lg:block">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex h-13 items-center justify-center">
-
             <div className="hidden md:block">
               <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-sm">
@@ -81,7 +78,6 @@ export default function Home() {
                       Home
                     </Link>
                   </li>
-
                   <li>
                     <Link
                       className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
@@ -90,7 +86,6 @@ export default function Home() {
                       AT&T Fiber® Plans
                     </Link>
                   </li>
-
                   <li>
                     <Link
                       className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
@@ -99,7 +94,6 @@ export default function Home() {
                       AT&T Internet Plans
                     </Link>
                   </li>
-
                   <li>
                     <Link
                       className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
@@ -108,7 +102,6 @@ export default function Home() {
                       AT&T Fixed Wireless Internet
                     </Link>
                   </li>
-
                   <li>
                     <Link
                       className="text-white font-semibold transition hover:underline underline-offset-[7px] decoration-3 font-jost"
@@ -124,8 +117,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
       <section className="hero">
         <div className="p-4 md:w-[500px] lg:w-[800px] lg:p-14">
           <h3 className="text-[22px] text-[#0057B8] font-semibold font-jost">AT&T Internet Plans</h3>
@@ -140,8 +131,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
       <section className="bg-[#0057B8]">
         <div className="mx-auto max-w-screen-xl py-12 text-center px-4">
           <h2 className="text-[20px] lg:text-[36px] font-semibold text-white lg:w-222 text-center mx-auto">
@@ -151,8 +140,6 @@ export default function Home() {
           <Link href="tel:+1-866-602-0042" className="text-[#0057B8] bg-white py-4 px-8 font-semibold rounded-md flex w-56 mx-auto hover:bg-[#0057B8] hover:shadow-2xl hover:text-white"><PhoneCall className="pr-2" /> (866) 602-0042</Link>
         </div>
       </section>
-
-
 
       <section className="pricingSec bg-white" id="AT&T-Fiber®-Plans">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -305,8 +292,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
       <section className="internetPlans bg-white" id="AT&T-Internet-Plans">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto max-w-screen-lg text-center">
@@ -411,9 +396,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
       <section className="bg-[#0057B8] py-12 px-4">
         <h2 className="text-[22px] lg:text-[36px] font-semibold text-white text-center pb-12">
           Looking for low cost or rural internet service?
@@ -431,10 +413,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
-
-
 
       <section className="fixedSec bg-white px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16" id="AT&T-Fixed-Wireless-Internet">
         <div className="mx-auto max-w-screen-xl">
@@ -496,9 +474,6 @@ export default function Home() {
         <Link href="tel:+1-866-602-0042" className="bg-[#0057B8] text-white py-4 px-5 rounded-md flex mx-auto w-45 hover:bg-black"><PhoneCall className="pr-2" /> (866) 602-0042</Link>
       </section>
 
-
-
-
       <section className="bg-[#0057B8] py-12 px-4">
         <h2 className="text-[25px] lg:text-[36px] font-semibold text-white text-center font-lato pb-2">
           What do upload and download speeds really mean?
@@ -525,10 +500,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
-
-
 
       <section className="bg-[#f3f3f3] px-4">
         <h2 className="text-center text-[27px] lg:text-[36px] text-[#233d63] font-bold lg:w-240 mx-auto py-10">Here are the states where AT&T Internet service is available</h2>
@@ -566,30 +537,9 @@ export default function Home() {
         </div>
       </section>
 
-
       <FAQ />
 
-
-      <footer className="bg-white">
-        <div className="mx-auto max-w-screen-xl px-4 lg:px-20 pb-10">
-          <h2 className="text-[#273171] text-[20px] font-bold font-lato">Useful Links</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 pt-8">
-            <ul>
-              <li className="pb-4 font-lato text-[#111]"><Link href={"tel:+1-866-602-0042"}>(866) 602-0042</Link></li>
-              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Fiber®-Plans">AT&T Fiber® Plans</Link></li>
-              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Internet-Plans">AT&T Internet Plans</Link></li>
-            </ul>
-            <ul>
-              <li className="pb-4 font-lato text-[#111]"><Link href="#AT&T-Fixed-Wireless-Internet">AT&T Fixed Wireless Internet</Link></li>
-              <li className="pb-4 font-lato text-[#111]"><Link href="#FAQs">FAQs</Link></li>
-            </ul>
-          </div>
-        </div>
-        <div className="bg-black py-4">
-          <p className="text-white text-center">©2025 <Link href={"/"}>www.newinternetproviders.com.</Link> All rights reserved.</p>
-        </div>
-      </footer>
-
+      
     </>
   );
 }
